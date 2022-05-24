@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Memo</title>
+    <link rel="stylesheet" href="./css/common.css"/>
+</head>
+<body>
+    <div class="wrap" id="wrap" ></div>
+    <!-- 스티커 메모 -->
+    <section class="hide" >
+        <div id="memoTemplete" class="memo"  >
+            <div class="header" >
+                <h1 class="blind">메모장 {id}</h1>
+                <button class="btn_close"><span class="blind">닫기</span></button>
+            </div>
+            <div class="content">
+                <div class="textarea" contenteditable="true">{text}</div>
+                <button class="btn_size"><span class="blind">메모장 크기 조절</span></button>
+            </div>
+        </div>
+    </section>
+    <!--// 스티커 메모 -->
+    <script src="./js/answer.js"></script>
+</body>
+</html>
